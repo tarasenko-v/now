@@ -1,4 +1,47 @@
 h1 {
-    color: red;
+    color: rgb(23, 177, 92) !important;
     width: 100%;
+}
+.a1 {
+    color: rgb(66, 13, 163);
+    font-style: bold;
+}
+.a2 {
+    color: rgb(190, 22, 115);
+    font-style: italic;
+}
+p {
+    font-size: 16pt;
+}
+.c1 {
+    background-image: url("/images/29202.jpg");
+    height: 25rem;
+    max-width: none !important;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c2 {
+    background-image: url("/images/97084.jpg");
+}
+footer {
+    background-color: rgb(101, 38, 143);
+    color: #fff;
+}
+.p1 {
+    font-weight: bold;
+}
+.d1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+a {
+    margin: 0 auto;
+    display: block;
+}
+svg:hover {
+    fill: #fff;
 }
